@@ -1,0 +1,46 @@
+<!--Code Start-->
+
+<html>
+
+    <head>
+        <!--Link CSS, Java and Title-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title> The Guest List </title>
+
+       </head>
+       <body>
+           <!--Components-->
+
+           <h1 id="title"> The Guest List </h1>
+           <hr>
+           <br>
+            
+           <input id="add_the_name" placeholder="Add A Guest">
+           <button id="add_guest_button" onclick = "addaguest();"> Add </button>
+           <hr>
+
+           <div id="display_name">
+               </div>
+               <hr>
+            
+            <h3> Guest List </h3>
+            <div id="guest_list"></div>
+            <button id="showguestbutton" onclick="show_guest()"> Show </button>
+            <br>
+            <hr>
+
+            <button id="sort_button" onclick="sorting()"> Sorted List </button>
+            <div id="display_sort_list"></div>
+
+            <br>
+            <hr>
+
+            <input id="search_name" placeholder="Search A Name">
+            <button id="search_button" onclick="search()"> Search </button>
+
+            <script href="main2.js"></script>
+
+           </body>
+
+
+    </html>
